@@ -37,7 +37,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.fillColor = CMRGBAColor(0x000000CC);
+        self.fillColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:.7];
         self.radiusOfHole = 0;
         self.backgroundColor = [UIColor clearColor];
         // Initialization code
